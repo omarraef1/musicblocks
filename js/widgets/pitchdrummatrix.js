@@ -185,7 +185,10 @@ function PitchDrumMatrix() {
                 // In case there are rest notes included.
                 this._rests += 1;
                 continue;
-            }
+            } 
+
+
+
 
             var drumName = getDrumName(this.rowLabels[i]);
 
