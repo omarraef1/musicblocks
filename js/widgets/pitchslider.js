@@ -84,6 +84,7 @@ function PitchSlider() {
             return;
         }
 
+        
         this.Sliders[cellIndex][2] = 0;
         this.Sliders[cellIndex][1] = idx; // += 1 * upDown;
 
